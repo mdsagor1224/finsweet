@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+/* =================================================
+INDEX OF
+===============
+1) Common
+2) HEDAER
+3) Hero Section
+4) Company logo
+5) Premium features 
+6) Happy Team
+7) Feature Analytics
+8)Testimonial
+9)FAQ
+10)CTA
+11) Footer
+12)copytight text
+=================================================*/
+
+
+/*=================================================
+ 1)  Common
+=================================================*/
+:root{
+    --text: #5B5B5B;
+    --secondary: #0D1317;
+    --acent:#232ED1;
+    --black: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-128{
+    padding-bottom: 128px;
+}
+/*=================================================
+   Button css
+=================================================*/
+.btn-secondary{
+    color: var(--secondary);
+    font-style: normal;
+    line-height: normal;
+    border-radius: 5px;
+    border: 2px solid rgba(35, 46, 209, 0.40);
+    padding: 16px 32px;
+    transition: .5s;
+}
+.btn-secondary:hover{
+    background: var(--acent);
+    color: #fff;
+    transition: .5s;
+}
+.btn-primary{
+    color: #FFF;
+    font-style: normal;
+    line-height: normal;
+    padding: 16px 32px;
+}
+
+
+/*=================================================
+  2) Header
+=================================================*/
+header {
+    padding-top: 20px;
+    background: #F3F4FC;
+}
+
+header .nav-link{
+    margin: 0 16px;
+}
+
+header .nav-link:hover{
+    color: var(--acent);
+}
+
+
+/*=================================================
+3)   Hero Section
+=================================================*/
+.hero-text h2{
+    color: #0D1317;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px; 
+    letter-spacing: -1.92px;
+}
+
+#hero-area {
+    background: #F2F3FC;
+    padding-top: 150px;
+    padding-bottom: 212px;
+}
+
+#hero-text p{
+    color: var(--text);
+    font-style: normal;
+     line-height: 30px;
+     padding-top: 32px;
+     padding-bottom: 48px;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img:before {
+    position: absolute;
+    content: "";
+    right: -30px;
+    bottom: -30px;
+    background: #232ED1;
+    height: 269px;
+    width: 243px;
+    z-index: -1;
+}
+.hhbox {
+    margin-top: 40px;
+}
+
+.hhbox .pricing{
+    color: var(--text);
+    padding-left: 40px;
+}
+/*=================================================
+ 4)  Company logo
+=================================================*/
+.logo-subtitle p{
+    color: var(--text);
+     line-height: 30px; 
+}
+#companylogo {
+    padding-top: 85px;
+    padding-bottom: 110px;
+}
+.logo-box {
+    padding-top: 40px;
+}
+
+
+/*=================================================
+ 5) Premium features 
+=================================================*/
+#featured{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.featue-title p{
+    color: var(--acent);
+    line-height: normal;
+}
+.featue-title h2{
+    color: var(--secondary);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px; 
+    letter-spacing: -1.44px;
+}
+
+.feature-content p{
+    color: var(--text);
+    line-height: 30px; 
+}
+
+/*=================================================
+ 6)  Happy Team 
+=================================================*/
+
+.team-title h2{
+    color: #FFF;
+    font-size: 48px;
+  font-weight: 600;
+    line-height: 56px; 
+    letter-spacing: -1.44px;
+}
+.team-content p{
+    color: #FFF;
+    line-height: 171%; 
+}
+.team-bg{
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background: #232ED1;
+}
+
+section#happy-team {
+    position: relative;
+}
+
+.team-bg {
+    position: absolute;
+    height: 100;
+    width: 1000px;
+    right: 0;
+    margin-top: -150px;
+}
+
+.team-title h2 {
+    padding-left: 90px;
+}
+
+
+/*=================================================
+ 7)  Feature Analytics
+=================================================*/
+#feature-analytics {
+    padding-top: 270px;
+    padding-bottom: 128px;
+}
+.subtitle p{
+    color: var(--acent);
+}
+.analytics-text h2{
+    color: var(--secondary);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px; 
+    letter-spacing: -1.44px;
+}
+
+.analytics-content p{
+    color: var(--text);
+    line-height: 30px; 
+}
+
+.learn-more{
+    color: #1A1A1A;
+    font-weight: 500;
+    line-height: 30.78px; 
+}
+
+.analytics-img{
+    background: #E5E7F9;
+    border-radius: 31px 31px 0px 31px;
+}
+.analytics-img {
+    padding: 125px 115px;
+}
+
+.radious-left {
+     border-radius: 31px 31px 31px 0px;
+}
+.customer-bg{
+    background: #FDE1DA;
+}
+.pt-128{
+    padding-top: 128px;
+}
+
+.user-bg{
+    background: #C8CBFA;
+}
+
+.radious-right{
+    border-radius: 31px 31px 0px 31px;
+}
+
+
+/*=================================================
+ 8)  Customer Testimonials
+=================================================*/
+.testimonial-text h2{
+    color: var(--secondary);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -1.44px;
+}
+
+.author-info img {
+    height: 60px;
+    width: auto;
+}
+.author-title h3{
+    color: #000;
+    font-size: 22px;
+    line-height: 28px; 
+}
+.author-text p{
+    color: var(--secondary);
+    line-height: 32px; 
+}
+.author-title img {
+    width: 120px;
+    height: 20px;
+}
+
+.author-title {
+    padding-left: 16px;
+}
+
+.testimonial-bg {
+    background: #E6E7FC;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.author-text {
+    padding-top: 20px;
+}
+
+/*=================================================
+ 11)  FAQ
+=================================================*/
+.faq-title h2{
+    color: #0D1317;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 106.5%; 
+    letter-spacing: -1.44px;
+}
+
+
+/*=================================================
+ 10)  CTA
+=================================================*/
+.cta-bg{
+    background: var(--acent);
+    border-radius: 0px 10px 0px 10px;
+    margin-bottom: -150px;
+}
+.cta-title h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 106.5%; 
+    letter-spacing: -1.44px;
+}
+.cta-btn{
+    border-radius: 5px;
+    background: #F24C27;
+    padding: 15px 52px;
+}
+.cta-btn a{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 171%; 
+}
+
+/*=================================================
+ 11) Footer
+=================================================*/
+
+.footer-bg{
+    background: #EFF0F8;
+}
+
+.footer-heading h3{
+    color:var(--black);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a{
+    color: var(--text);
+    font-style: normal;
+    line-height: 30px; 
+}
+.footer-area{
+    padding-top: 278px;
+    padding-bottom: 120px;
+}
+
+.sub-text p{
+    color: var(--text);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 141%; 
+    letter-spacing: -0.72px;
+    }
+
+.newslater {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+
+.email-sub {
+    position: relative;
+}
+
+a.newslater-btn {
+    position: absolute;
+    background: #F24C27;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    right: 0;
+    top: 10px;
+}
+
+input[type="email"] {
+    background: #fff;
+    border-radius: 5px;
+    height: 89px;
+    width: 650px;
+    border: none;
+}
+
+/*==================================
+12 ) copyright area 
+====================================*/
+
+.copyright-bg{
+    background: #232ED1;
+}
+.copyright-text p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    font-style: normal;
+   letter-spacing: -0.54px;
+}
