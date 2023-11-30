@@ -1,0 +1,112 @@
+@media only screen and(min-width:768px) and (max-width:991px){
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* hero section */
+    .hero-text h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+        word-spacing: 5px;
+    }
+
+    section#hero-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .hero-img {
+        padding-top: 30px;
+    }
+
+    /* premium freature */
+    .featue-title h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .featue-title h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    
+    .analytics-text h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .pt-30{
+        padding-top: 30px;
+    }
+    .pt-50{
+        padding-top: 50px;
+    }
+    .pb-30{
+        padding-bottom: 30px;
+    }
+    .mb-30{
+        margin-bottom: 30px;
+    }
+    
+
+
+    /* testimonial */
+    .testimonial-text h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+
+    /* cta section */
+    .cta-title h2 {
+        font-size: 25px;
+    }
+    
+    .cta-btn {
+        padding: 10px 15px;
+    }
+    
+    .cta-btn a {
+        font-size: 20px;
+    }
+
+    /* faq */
+
+
+    .faq-title h2 {
+        font-size: 30px;
+    }
+
+
+    /* footer */
+
+    .footer-area {
+        text-align: center;
+    }
+
+    .pt-30{
+        padding-top: 30px;
+    }
+    .pb-30{
+        padding-bottom: 30px;
+    }
+    
+    .newslater {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-area {
+    padding-bottom: 50px;
+}
+
+input[type="email"] {
+    width: 100%;
+}
+
+a.newslater-btn {
+    font-size: 16px;
+    padding: 10px 15px;
+    right: 0px;
+    top: 23px;
+}
+
+  }
