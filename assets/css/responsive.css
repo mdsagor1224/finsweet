@@ -1,8 +1,17 @@
 @media only screen and(min-width:768px) and (max-width:991px){
-
+    .hero-text h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
 }
 
 @media screen and (max-width: 767px) {
+
+    /* navbar */
+
+    ul.navbar-nav {
+        margin-bottom: 30px !important;
+    }
 
     /* hero section */
     .hero-text h2 {
@@ -109,4 +118,51 @@ a.newslater-btn {
     top: 23px;
 }
 
+  }
+
+
+  @media screen and (max-width: 992px){
+    .hero-text h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+
+    .featue-title h2{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    a.pricing {
+        padding-left: 20px !important;
+    }
+    
+    .btn-primary {
+        padding: 10px 15px;
+    }
+
+    .analytics-text h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+
+    .testimonial-text h2 {
+        font-size: 30px;
+    }
+    
+    .author-title h3 {
+        font-size: 15px;
+        line-height: 1em;
+    }
+
+    .cta-title h2 {
+        font-size: 30px;
+    }
+    
+    .cta-btn {
+        padding: 10px 15px;
+    }
+    
+    .cta-btn a {
+        font-size: 15px;
+    }
+    
   }
